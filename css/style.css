@@ -1,19 +1,21 @@
-/* */
+h1 {
+  color: brown;
+}
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-header{
+header {
   padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-header nav ul{
+header nav ul {
   color: aliceblue;
   list-style: none;
   display: flex;
@@ -21,51 +23,51 @@ header nav ul{
   font-size: 1.3rem;
 }
 
-h1{
-    color:white;
+h1 {
+  color: white;
 }
 
-
-h1{
-    background-color:blue;
-    font-family: 'Poppins', sans-serif;
+h1 {
+  background-color: blue;
+  font-family: "Poppins", sans-serif;
 }
-
 
 footer {
-    background-color:blue;
-    
+  background-color: blue;
 }
 
-*{
-    background-color: whitesmoke;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+* {
+  background-color: whitesmoke;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .grid-conteiner {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-  
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
 
-  .grid-item1 {
-    width: 90%;
-    height: 85%;
-    align-items: center;
-  }
+.grid-item1 {
+  width: 90%;
+  height: 85%;
+  align-items: center;
+}
 
-  .grid-item2 {
-    width: 90%;
-    height: 85%;
-    align-items: center;
-  }
+.grid-item2 {
+  width: 90%;
+  height: 85%;
+  align-items: center;
+}
 
-  .grid-item3 {
-    width: 90%;
-    height: 85%;
-    align-items: center;
-  }
+.grid-item3 {
+  width: 90%;
+  height: 85%;
+  align-items: center;
+}
+
+h1 {
+  color: black;
+}/*# sourceMappingURL=style.css.map */
